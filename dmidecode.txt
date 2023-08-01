@@ -1,15 +1,10 @@
-[ars@arsw ~]$ dmidecode
-# dmidecode 3.5
-/sys/firmware/dmi/tables/smbios_entry_point: Permission denied
-Scanning /dev/mem for entry point.
-Can't read memory from /dev/mem
 [ars@arsw ~]$ sudo dmidecode
 [sudo] password for ars: 
 # dmidecode 3.5
 Getting SMBIOS data from sysfs.
 SMBIOS 2.7 present.
 106 structures occupying 3859 bytes.
-Table at 0xDBE4F018.
+Table at 0x9DE4F018.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
